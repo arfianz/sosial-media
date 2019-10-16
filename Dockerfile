@@ -1,5 +1,4 @@
-FROM nginx
+FROM webdevops/php:7.2
 
-WORKDIR  /usr/share/nginx/html
-
-COPY .  /usr/share/nginx/html
+WORKDIR  /app
+COPY .  /app
